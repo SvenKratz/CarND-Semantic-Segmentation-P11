@@ -20,7 +20,7 @@ As per the project instructions, the fully convolutional model was a adapted fro
 
 Here is a graphical depiction of the model architecture:
 
-![model_architecture](https://www.dropbox.com/s/xqmpo26a31jry0p/model_architecture.png?dl=0 "architecture")
+![model_architecture](static https://www.dropbox.com/s/xqmpo26a31jry0p/model_architecture.png?dl=0 "architecture")
 
 The model layers are initialized with a truncated normal initializer (sigma=0.01) and use an l2 regularizer.
 
