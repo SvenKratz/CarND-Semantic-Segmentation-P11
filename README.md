@@ -20,7 +20,7 @@ As per the project instructions, the fully convolutional model was a adapted fro
 
 Here is a graphical depiction of the model architecture:
 
-![model_architecture](/model_architecture.png?raw=true)
+![model_architecture](https://www.dropbox.com/s/xqmpo26a31jry0p/model_architecture.png?dl=0)
 
 The model layers are initialized with a truncated normal initializer (sigma=0.01) and use an l2 regularizer.
 
@@ -38,6 +38,6 @@ I kept track of the average loss rate by outputting it at the end of every epoch
 
 Here are some semantic segmentation output examples:
 
-![example 1](/runs/1535510393.7355092/um_00019.png?raw=true)
+![example 1](https://www.dropbox.com/s/b22gtl5dnl493h4/uu_000019.png?dl=0)
 
-![example 2](/runs/1535510393.7355092/uu_000085.png?raw=true)
+![example 2](https://www.dropbox.com/s/5ca0qicwycdkj2e/uu_000085.png?dl=0e)
