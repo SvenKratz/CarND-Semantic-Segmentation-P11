@@ -16,4 +16,24 @@ This repository contains the following notable files:
 
 ## Comments on the Fully Convolutional Model Implementation
 
+As per the project instructions, the fully convolutional model was a adapted from the [Long et al. paper](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Long_Fully_Convolutional_Networks_2015_CVPR_paper.pdf).
+
+Here is a graphical depiction of the model architecture:
+
 ![model_architecture][model_architecture.png]
+
+The model layers are initialized with a truncated normal initializer (sigma=0.01) and use an l2 regularizer.
+
+I used an Adam optimizer to minimize the cost function.
+
+I experimented with different learning rates, epoch numbers and hidden layer keep probability and found the following hyperparameters to work well:
+
+* learning rate: 0.001
+* number of epochs: 150
+* keep probability: 0.75
+
+I kept track of the average loss rate by outputting it at the end of every epoch, and verified that is gets monotonically lower, which means that the optimizer is converging. 
+
+## Output Examples
+
+Here are some semantic segmentation output examples:
