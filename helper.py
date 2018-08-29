@@ -1,8 +1,3 @@
-import re
-import random
-import numpy as np
-import os.path
-import scipy.misc
 import shutil
 import zipfile
 import time
