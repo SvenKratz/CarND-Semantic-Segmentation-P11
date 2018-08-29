@@ -40,4 +40,4 @@ Here are some semantic segmentation output examples:
 
 ![example 1](https://www.dropbox.com/s/b22gtl5dnl493h4/uu_000019.png?dl=0 "example 1")
 
-![example 2](https://www.dropbox.com/s/5ca0qicwycdkj2e/uu_000085.png?dl=0e "example 2)
+![example 2](https://www.dropbox.com/s/5ca0qicwycdkj2e/uu_000085.png?dl=0e "example 2")
