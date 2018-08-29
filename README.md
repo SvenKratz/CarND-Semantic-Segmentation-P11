@@ -32,8 +32,12 @@ I experimented with different learning rates, epoch numbers and hidden layer kee
 * number of epochs: 150
 * keep probability: 0.75
 
-I kept track of the average loss rate by outputting it at the end of every epoch, and verified that is gets monotonically lower, which means that the optimizer is converging. 
+I kept track of the average loss rate by outputting it at the end of every epoch, and verified that is gets monotonically lower, which means that the optimizer is converging.
 
 ## Output Examples
 
 Here are some semantic segmentation output examples:
+
+![example 1][runs/1535510393.7355092/um_00019.png]
+
+![example 2][runs/1535510393.7355092/uu_000085.png]
